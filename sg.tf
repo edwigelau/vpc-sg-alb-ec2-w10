@@ -1,5 +1,5 @@
 resource "aws_security_group" "sg1" {
-  name        = "webserver-sg"
+  name        = "web-sg"
   description = "Allow http"
   vpc_id      = module.vpc.vpc_id
 
